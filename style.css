@@ -43,7 +43,7 @@
 .about{
   position: fixed;
   background-color: black;
-  display: flex;
+  display: none;
   flex-direction: column;
   width: 80%;
   height: 80%;
@@ -54,4 +54,7 @@
 }
 .about p,h1{
   color: white;
+}
+.about button{
+  height: 50px;
 }
