@@ -1,10 +1,13 @@
-let produto1 = {
-    nome: "Margherita",
-    preco: 10.99,
-    descricao: "Pizza Margherita",
-    estoque: "Em estoque"
-}
-
+let produtos = [
+    {
+        id: 1,
+        nome: "Margherita",
+        preco: 10.99,
+        descricao: "Pizza Margherita",
+        estoque: "Em estoque"
+    },
+    {},
+]
 // Produto 1
 const nomeProduto1 = "Café Expresso";
 let precoProduto1 = 8.50;
